@@ -1,0 +1,94 @@
+#navbar{
+    flex-direction: column;
+}
+.navigation{
+    font-size: 0.82rem;
+}
+.home p{
+    font-size: 0.8rem;
+}
+.btn{
+    font-size: 0.8rem;
+}
+.services-container{
+    top: 27rem;
+}
+.services{
+   flex-wrap: wrap; 
+}
+.services .box{
+    width:100%;
+    height: 22rem;
+}
+.services .box p{
+    font-size: 0.7rem;
+}
+#burger{
+    width: 165px;
+}
+#bike{
+    width: 150px;
+}
+#pizza{
+    width: 165px;
+}
+.h-primary{
+    font-size: 1.5rem;
+}
+.h-secondary{
+    font-size: 1.2rem;
+}
+.clients-section
+{
+    top: 106rem;
+}
+.client-items{
+    width: 5rem;
+    height: 5rem
+}
+.form-group label, .form-group input{
+    font-size: 1rem;
+}
+footer{
+    top: 158rem;
+    font-size: 0.7rem;
+}
+.contacts-section{
+    top: 128rem;
+}
+
+/* @media  screen and (max-width:388px) {
+.clients-section
+{
+    top: 106rem;
+}
+.contacts-section{
+    top: 128rem;
+}
+footer{
+    top: 158rem;
+    font-size: 0.7rem;
+}
+}
+@media  screen and (min-width:388px) and (max-width:452px) {
+    .clients-section
+    {
+        top: 103rem;
+    }
+    .contacts-section{
+        top: 125rem;
+    }
+    footer{
+        top: 155rem;
+        font-size: 0.7rem;
+    }
+    } */
+@media screen and (min-width:592px) {
+    .contacts-section{
+        top: 118.8rem;
+    }
+    footer{
+        top: 148.8rem;
+        font-size: 0.7rem;
+    }
+}
